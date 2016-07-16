@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	html, body {
-		background: #ffffff; /*#1c1d26;*/
+		background: #1c1d26;
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1584,12 +1584,12 @@
 	}
 
 		a:hover {
-			color: #44eecd !important;
+			color: #e44c65 !important;
 			border-bottom-color: transparent;
 		}
 
 	strong, b {
-		color: #1c1d26;
+		color: #ffffff;
 		font-weight: 300;
 	}
 
@@ -1602,7 +1602,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #1c1d26;
+		color: #ffffff;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1756,7 +1756,7 @@
 		}
 
 		99% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1765,7 +1765,7 @@
 		}
 
 		100% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1785,7 +1785,7 @@
 		}
 
 		99% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1794,7 +1794,7 @@
 		}
 
 		100% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1814,7 +1814,7 @@
 		}
 
 		99% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1823,7 +1823,7 @@
 		}
 
 		100% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1843,7 +1843,7 @@
 		}
 
 		99% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: 100001;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -1852,7 +1852,7 @@
 		}
 
 		100% {
-			color: #ffffff;
+			color: #1c1d26;
 			z-index: -1;
 			-moz-transform: scale(0.5) rotate(360deg);
 			-webkit-transform: scale(0.5) rotate(360deg);
@@ -2057,7 +2057,7 @@
 			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
 			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
 			animation: overlay-hide 1.5s ease-in forwards !important;
-			background: #ffffff;
+			background: #1c1d26;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2101,7 +2101,7 @@
 	}
 
 	header p {
-		color: #1c1d26;
+		color: #ffffff;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2133,7 +2133,7 @@
 	}
 
 		header.major:after {
-			background: #44eecd;
+			background: #e44c65;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2152,7 +2152,7 @@
 	}
 
 	label {
-		color: #44eecd;
+		color: #ffffff;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -2196,7 +2196,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #44eecd;
+			border-color: #e44c65;
 		}
 
 	.select-wrapper {
@@ -2244,8 +2244,8 @@
 	}
 
 	select option {
-		background-color: #ffffff;
-		color: #1c1d26;
+		background-color: #1c1d26;
+		color: #ffffff;
 	}
 
 	select:focus::-ms-value {
