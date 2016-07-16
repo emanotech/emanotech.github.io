@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	html, body {
-		background: #1c1d26;
+		background: #ffffff; /*#1c1d26;*/
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1584,12 +1584,12 @@
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #44eecd !important;
 			border-bottom-color: transparent;
 		}
 
 	strong, b {
-		color: #ffffff;
+		color: #1c1d26;
 		font-weight: 300;
 	}
 
@@ -1602,7 +1602,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #1c1d26;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
