@@ -2519,7 +2519,10 @@
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			margin: 0px;
+    			padding: 0px;
+    			text-indent: 0.5em;
+    			margin-left: -0.5em;
 		}
 
 		ul.alt {
