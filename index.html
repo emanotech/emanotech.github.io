@@ -201,7 +201,7 @@
 						<div class="inner">
 							<section>
 								<h2>Contact Us</h2>
-								<form method="post" action="#">
+								<form method="post" action="../mailform.php">
 									<div class="field half first">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
@@ -211,30 +211,17 @@
 									<div class="field">
 										<textarea name="message" id="message" placeholder="Message"></textarea>
 									</div>
+
+									<div class="g-recaptcha" data-sitekey="6LdHTSUTAAAAAF8uW09URJsXQC0Oq9qAS0UEESH4"></div>
+
 									<ul class="actions">
 										<li><input type="submit" value="Send" class="special" /></li>
 									</ul>
 								</form>
+								<!--js-->
+								<script src='https://www.google.com/recaptcha/api.js'></script>
+
 							</section>
-							<section>
-								<div class="contact" id="contact">
-								        <div class="wrap">
-								            <h3>CONTACT US</h3>
-								            <p class="a">Free Estimates</p>
-								            <div class="form">
-								                 <div class="form-text">
-								                 <form method='post' action="../mailform.php">
-								                    <input type="text" class="textbox" value="Your Name*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-								                    <input type="text" class="textbox" value="Your E-mail*" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
-								                    <input name="PNumber" type="text" class="Subject" value="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}">
-								                </div>
-								                     <textarea name='mytextarea' placeholder="Your Message*"></textarea>
-								                     <div class="clear"> </div>
-								                     <input type="submit" value="SEND MESSAGE">
-								             </div>
-								     </div>
-					     </div>
-						 </section>
 
 
 
