@@ -201,7 +201,7 @@
 						<div class="inner">
 							<section>
 								<h2>Contact Us</h2>
-								<form method="post" action="mailform.php">
+								<!-- <form method="post" action="mailform.php">
 									<div class="field half first">
 										<input type="text" name="name" id="name" placeholder="Name" />
 									</div>
@@ -217,28 +217,111 @@
 									<ul class="actions">
 										<li><input type="submit" value="Send" class="special" /></li>
 									</ul>
+								</form> -->
+
+								<form name="contactform" method="post" action="send_form_email.php">
+
+									<table width="450px">
+
+										<tr>
+
+ 										<td valign="top">
+
+										<label for="name">Name *</label>
+
+										 </td>
+
+										 <td valign="top">
+
+										  <input  type="text" name="first_name" maxlength="50" size="30">
+
+										 </td>
+
+										</tr>
+
+										<tr>
+
+ 										<td valign="top">
+
+  									<label for="last_name">Last Name *</label>
+
+									 </td>
+
+									 <td valign="top">
+
+									  <input  type="text" name="last_name" maxlength="50" size="30">
+
+									 </td>
+
+									</tr>
+
+									<tr>
+
+									 <td valign="top">
+
+									  <label for="email">Email Address *</label>
+
+									 </td>
+
+									 <td valign="top">
+
+									  <input  type="text" name="email" maxlength="80" size="30">
+
+									 </td>
+
+									</tr>
+
+									<tr>
+
+									 <td valign="top">
+
+									  <label for="telephone">Telephone Number</label>
+
+									 </td>
+
+									 <td valign="top">
+
+									  <input  type="text" name="telephone" maxlength="30" size="30">
+
+									 </td>
+
+									</tr>
+
+									<tr>
+
+									 <td valign="top">
+
+									  <label for="comments">Comments *</label>
+
+									 </td>
+
+									 <td valign="top">
+
+									  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+
+									 </td>
+
+									</tr>
+
+									<tr>
+
+									 <td colspan="2" style="text-align:center">
+
+									  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
+
+									 </td>
+
+									</tr>
+
+									</table>
+
 								</form>
 
-							</section>
+					</section>
 
 
 
 
-<!--
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
--->
 							<ul class="copyright">
 								<li>&copy; 2016 Emanotech LLC. All rights reserved</li><li>Design inspired by: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
