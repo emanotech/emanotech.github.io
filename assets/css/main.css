@@ -2738,11 +2738,11 @@
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #C70039;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: ##FB9681;
 			}
 
 			.tiles article.style5 > .image:before {
@@ -2750,7 +2750,7 @@
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #FFC300;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
