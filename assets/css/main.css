@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+/*@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");*/
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 
 /*
 	Phantom by HTML5 UP
@@ -1641,7 +1642,8 @@
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+		font-family: 'Arimo', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
