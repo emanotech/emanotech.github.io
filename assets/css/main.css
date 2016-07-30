@@ -2881,7 +2881,7 @@
 
 				#header .logo .symbol img {
 					display: block;
-					width: auto;
+					width: 100%;
 					height: auto;
 				}
 
